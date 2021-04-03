@@ -1,0 +1,12 @@
+.PrevCardContainer{
+    height : 100% ;
+    display:block ;
+}
+.PrevCardContainer a{
+    height : 120px ;
+}
+.PrevCardContainer img{
+    border-radius : 50% ;
+    object-fit: contain ;
+    margin : 10px  ;
+}

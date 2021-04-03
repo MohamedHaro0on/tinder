@@ -1,0 +1,95 @@
+.TinderContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.TinderCard {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-color : #fff;
+  height: 600px;
+  min-width:400px ;
+  border-radius: 20px;
+  display: flex;
+  box-shadow: 1px 5px 10px 0 rgba(0,0,0,.1) !important;
+}
+
+.TinderCard .Info {
+  letter-spacing: 1px;
+  position: absolute;
+  bottom: 0px;
+  box-sizing: border-box;
+  left: 0px;
+  right: 0px;
+  font-family: ProximaNova ;
+  padding:10px 20px;
+  border-radius: 20px;
+  background-color : #fff;
+}
+.TinderCard .Info p{
+  margin:20px 10px;
+}
+.Controls {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding : 10px ;
+}
+.Controls button {
+  box-shadow: 2px  2px 10px 2px rgb(0,0,0,.1);
+}
+.Controls .Repeat {
+  color: #f5b748;
+}
+.Controls .Cancel {
+  color: #fd267d;
+}
+.Controls .Star {
+  color: #27b6ff;
+}
+.Controls .Heart {
+  color: #37e9b9;
+}
+
+.Like,
+.Nope,
+.SuperLike {
+  position: absolute;
+  transition: all 0.1s;
+  padding: 10px;
+  font-size: 1.5em;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+}
+.Like {
+  top: 50px;
+  left: 20px;
+  transform: rotate(-30deg);
+  border: 2px solid #01df8a;
+  color: #01df8a;
+}
+.Nope {
+  top: 50px;
+  right: 20px;
+  transform: rotate(30deg);
+  border: solid 2px #ff4848;
+  color: #ff4848;
+}
+.SuperLike {
+  bottom: 200px;
+  left: 25%;
+  color: #27b6ff;
+  border: solid 2px #27b6ff;
+  transform: rotate(-20deg);
+}
+.Swipe {
+  position: absolute;
+}
+
+@media only screen and (max-width: 526px) {
+  .TinderCard {
+    min-width: 300px;
+    height : 500px ;
+  }
+}

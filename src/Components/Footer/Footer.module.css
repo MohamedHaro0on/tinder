@@ -1,0 +1,39 @@
+.Footer{
+    position : absolute;
+    bottom : 0px ;
+    padding : 10px;
+    left : 0px ;
+    right:0px ;
+    display:flex;
+    justify-content: center;
+    color : #5c5c5c;
+    padding : 30px 10px ;
+}
+
+.Footer ul{
+    padding : 0px;
+    display : flex ;
+    list-style : none ;
+    transition : all .3s ;
+    overflow : hidden ;
+}
+.Footer ul li {
+    display : flex;
+    align-items : center;
+    justify-content: center;
+    padding : 0px 10px;
+    font-size : .75em;
+    font-weight: bolder;
+    margin: 0px 10px;
+}
+.Footer ul li svg{
+    border : solid 2px #5c5c5c;
+    border-radius : 5px;
+    margin-right : 5px;
+}
+.Hide{
+    width:0px ;
+}
+.Show {
+    width:350px ;
+}

@@ -1,0 +1,25 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+@font-face {
+  font-family: ProximaNova;
+  src: url("./Muli-Regular.ttf");
+}
+body {
+  margin: 0;
+  font-family: ProximaNova !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.MuiPaper-elevation1{
+  height:100%;
+}
+.PrivateTabIndicator-root-1
+{
+  background-image : linear-gradient(#ff7854,#fd267d) ;
+  height:3px !important;
+}

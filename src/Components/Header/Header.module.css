@@ -1,0 +1,24 @@
+.Header {
+  padding: 10px 20px;
+  border: solid 1px #f9f9f9;
+  background-color: #f5f7fa !important;
+}
+.Header .Routes {
+  display: flex;
+  list-style: none;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.Header .Routes li {
+  display: flex;
+}
+.Header .Routes li a button,
+.Header .Routes li a svg path {
+  transition: all 0.3s;
+  fill: #dadfe6;
+}
+.Header .Routes li a.Active button svg path{
+  fill: #fd5068;
+}

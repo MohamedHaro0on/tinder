@@ -1,0 +1,27 @@
+.Container {
+  color: #2c2c2c;
+  display: flex;
+  overflow:hidden;
+}
+.Container >div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.MainContent {
+  flex: 4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  position : relative;
+}
+
+@media only screen and (max-width: 768px) {
+  .MainContent {
+    padding-top: 90px;
+    height:100vh;
+  }
+}
