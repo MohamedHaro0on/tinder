@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/tinder/static/css/main.b7826995.chunk.css",
+    "main.js": "/tinder/static/js/main.d4bb92fb.chunk.js",
+    "main.js.map": "/tinder/static/js/main.d4bb92fb.chunk.js.map",
+    "runtime-main.js": "/tinder/static/js/runtime-main.80c0d7b7.js",
+    "runtime-main.js.map": "/tinder/static/js/runtime-main.80c0d7b7.js.map",
+    "static/js/2.875afb34.chunk.js": "/tinder/static/js/2.875afb34.chunk.js",
+    "static/js/2.875afb34.chunk.js.map": "/tinder/static/js/2.875afb34.chunk.js.map",
+    "static/js/3.24329528.chunk.js": "/tinder/static/js/3.24329528.chunk.js",
+    "static/js/3.24329528.chunk.js.map": "/tinder/static/js/3.24329528.chunk.js.map",
+    "index.html": "/tinder/index.html",
+    "static/css/main.b7826995.chunk.css.map": "/tinder/static/css/main.b7826995.chunk.css.map",
+    "static/js/2.875afb34.chunk.js.LICENSE.txt": "/tinder/static/js/2.875afb34.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/tinder/static/media/Muli-Regular.426119c6.ttf",
+    "static/media/profile photo.05d21fd0.jpg": "/tinder/static/media/profile photo.05d21fd0.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.80c0d7b7.js",
+    "static/js/2.875afb34.chunk.js",
+    "static/css/main.b7826995.chunk.css",
+    "static/js/main.d4bb92fb.chunk.js"
+  ]
+}
