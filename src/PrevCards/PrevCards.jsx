@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import ClassNames from './PervCards.module.css';
+import ClassNames from './PrevCards.module.css';
 import { useContext } from "react";
 import { Context } from "../Context/Context";
 
