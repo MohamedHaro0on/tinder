@@ -1,12 +1,22 @@
 .PrevCardsContainer{
     padding : 20px ;
     width:100%;
+    overflow: auto;
+    display: flex;
+    flex-wrap : wrap ;
+    justify-content: center;
+    height: fit-content;
 }
-
-.PrevCardContainer img{
+.PrevCardsContainer h2{
+    width:100%;
+}
+.Card{
+    padding : 10px  ;
+    box-sizing : border-box;
+}
+.Card img{
     border-radius : 50% ;
     object-fit: contain ;
-    margin : 10px  ;
 }
 .NoCards{
     padding : 20px ;
@@ -14,4 +24,12 @@
     text-align : center;
     align-items: center;
     height:100%;
+}
+@media only screen and (max-width:400px) {
+    .PrevCardsContainer{
+        display: flex;
+        flex-wrap : wrap ;
+        justify-content: center;
+    }
+
 }
