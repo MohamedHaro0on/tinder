@@ -12,7 +12,7 @@ import ClassNames from "./Header.module.css"
 
 let Routes = [
     {
-        url: "/", id: 1, ariaLabel: "to home page", icon:
+        url: "/tinder", id: 1, ariaLabel: "to home page", icon:
             (<svg
                 viewBox="0 0 24 24"
                 width="24px"

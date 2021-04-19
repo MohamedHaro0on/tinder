@@ -24,7 +24,7 @@ const App = () => {
 
             <main className={ClassNames.MainContent}>
 
-              <Route exact path="/" component={TinderCards} />
+              <Route exact path="/tinder" component={TinderCards} />
               <Route exact path="/liked" component={PrevCards} />
               <Route exact path="/disliked" component={PrevCards} />
 

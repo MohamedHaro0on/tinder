@@ -6,7 +6,7 @@ import { Context } from "../Context/Context";
 
 const renderCards = (data) => {
     return (
-        <article className={ClassNames.PrevCardContainer}>
+        <div className={ClassNames.PrevCardContainer}>
             {data.map(({ url, id, title }) => {
                 return (
                     <Link key={id} to="">
@@ -14,10 +14,12 @@ const renderCards = (data) => {
                     </Link>
                 )
             })}
-        </article>
+        </div>
     )
 }
-const PervCards = (props) => {
+
+
+const PrevCards = (props) => {
 
     let { pathname } = props.history.location
     const { liked, disLiked } = useContext(Context);
@@ -25,26 +27,26 @@ const PervCards = (props) => {
     // if the route is equal to liked then it will display the liked list;
     if (liked.length > 0 && pathname === "/liked") {
         return (
-            <div className={ClassNames.PrevCardsContainer}>
+            <article className = {ClassNames.PrevCardsContainer}>
                 <h2> Likes </h2>
                 {renderCards(liked)}
-            </div>
+            </article>
         )
     }
     // if the route is equale to disliked it will display the disliked list;
     else if (disLiked.length > 0 && pathname === "/disliked") {
         return (
-            <div className={ClassNames.PrevCardsContainer}>
+            <article className = {ClassNames.PrevCardsContainer}>
                 <h2> DisLikes </h2>
                 {renderCards(disLiked)}
-            </div>
+            </article>
         )
 
     }
     // if the liked and disliked are empty ;
     else if (liked.length === 0 || disLiked.length === 0) {
         return (
-            <article>
+            <article className = {ClassNames.NoCards}>
                 <h3> you havenot {pathname.substring(1)} any one  yet
                     <Link to="/" aria-label="to Home page"> Let's Start !! </Link>
                 </h3>
@@ -53,4 +55,4 @@ const PervCards = (props) => {
     }
 }
 
-export default PervCards;
+export default PrevCards;

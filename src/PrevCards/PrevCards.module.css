@@ -1,14 +1,17 @@
 .PrevCardsContainer{
-    height : 100% ;
-    display:block ;
-    width:100%;
     padding : 20px ;
+    width:100%;
 }
-.PrevCardContainer a{
-    height : 120px ;
-}
+
 .PrevCardContainer img{
     border-radius : 50% ;
     object-fit: contain ;
     margin : 10px  ;
+}
+.NoCards{
+    padding : 20px ;
+    display: flex;
+    text-align : center;
+    align-items: center;
+    height:100%;
 }
