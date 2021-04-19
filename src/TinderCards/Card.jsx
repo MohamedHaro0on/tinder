@@ -33,7 +33,7 @@ const Card = ({ url, title, id }) => {
         { icon: <StarIcon fontSize="large" />, ariaLabel: "SuperLike", className: ClassNames.Star, dir: "up" },
         { icon: <FavoriteIcon fontSize="large" />, ariaLabel: "Like", className: ClassNames.Heart, dir: "right" },
     ]
-    return (
+    return (    
         <TinderCard
             preventSwipe={["down"]}
             className={ClassNames.Swipe}
