@@ -31,9 +31,9 @@ const PeopleContext = (props) => {
         setLoading(true)
         axios.get(URL).then((res) => {
             setPeople(res.data);
-            setProvidedPeople(res.data.slice(0, pointer))
+            setProvidedPeople(res.data.slice(0, 20))
             setPointer(prevState=> prevState+20);
-            console.log("the pointer in the use effect", pointer);
+            console.log("The Provided People" , providedPeople)
         }).catch((err) => {
             console.log("the Error ", err);
         }).then(() => {

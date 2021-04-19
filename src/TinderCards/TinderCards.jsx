@@ -6,8 +6,8 @@ import Card from "./Card";
 
 const TinderCards = () => {
     const { loading, providedPeople } = useContext(Context);
-
-    if (loading) {
+    console.log("The Provided People" , providedPeople , loading);
+    if (loading && !providedPeople) {
         return (
             <Loader />
         )

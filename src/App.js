@@ -15,7 +15,7 @@ let MainBreakPoint = 768;
 const App = () => {
   const Width = useWindowWidth();
   return (
-    <Router>
+    <Router basename = "/tinder">
       <Switch>
         <PeopleContext>
           <div className={ClassNames.Container}>
