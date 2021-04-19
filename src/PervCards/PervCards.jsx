@@ -24,11 +24,22 @@ const PervCards = (props) => {
 
     // if the route is equal to liked then it will display the liked list;
     if (liked.length > 0 && pathname === "/liked") {
-        return renderCards(liked)
+        return (
+            <div className={ClassNames.PrevCardsContainer}>
+                <h2> Likes </h2>
+                {renderCards(liked)}
+            </div>
+        )
     }
     // if the route is equale to disliked it will display the disliked list;
     else if (disLiked.length > 0 && pathname === "/disliked") {
-        return renderCards(disLiked)
+        return (
+            <div className={ClassNames.PrevCardsContainer}>
+                <h2> DisLikes </h2>
+                {renderCards(disLiked)}
+            </div>
+        )
+
     }
     // if the liked and disliked are empty ;
     else if (liked.length === 0 || disLiked.length === 0) {

@@ -1,6 +1,8 @@
-.PrevCardContainer{
+.PrevCardsContainer{
     height : 100% ;
     display:block ;
+    width:100%;
+    padding : 20px ;
 }
 .PrevCardContainer a{
     height : 120px ;
