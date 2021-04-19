@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/tinder/static/css/main.b3c909cf.chunk.css",
-    "main.js": "/tinder/static/js/main.32665a1e.chunk.js",
-    "main.js.map": "/tinder/static/js/main.32665a1e.chunk.js.map",
+    "main.css": "/tinder/static/css/main.a16e62c7.chunk.css",
+    "main.js": "/tinder/static/js/main.35533649.chunk.js",
+    "main.js.map": "/tinder/static/js/main.35533649.chunk.js.map",
     "runtime-main.js": "/tinder/static/js/runtime-main.80c0d7b7.js",
     "runtime-main.js.map": "/tinder/static/js/runtime-main.80c0d7b7.js.map",
-    "static/js/2.5aa565cd.chunk.js": "/tinder/static/js/2.5aa565cd.chunk.js",
-    "static/js/2.5aa565cd.chunk.js.map": "/tinder/static/js/2.5aa565cd.chunk.js.map",
+    "static/js/2.4b8a9cd8.chunk.js": "/tinder/static/js/2.4b8a9cd8.chunk.js",
+    "static/js/2.4b8a9cd8.chunk.js.map": "/tinder/static/js/2.4b8a9cd8.chunk.js.map",
     "static/js/3.24329528.chunk.js": "/tinder/static/js/3.24329528.chunk.js",
     "static/js/3.24329528.chunk.js.map": "/tinder/static/js/3.24329528.chunk.js.map",
     "index.html": "/tinder/index.html",
-    "static/css/main.b3c909cf.chunk.css.map": "/tinder/static/css/main.b3c909cf.chunk.css.map",
-    "static/js/2.5aa565cd.chunk.js.LICENSE.txt": "/tinder/static/js/2.5aa565cd.chunk.js.LICENSE.txt",
+    "static/css/main.a16e62c7.chunk.css.map": "/tinder/static/css/main.a16e62c7.chunk.css.map",
+    "static/js/2.4b8a9cd8.chunk.js.LICENSE.txt": "/tinder/static/js/2.4b8a9cd8.chunk.js.LICENSE.txt",
     "static/media/index.css": "/tinder/static/media/Muli-Regular.426119c6.ttf",
     "static/media/profile photo.05d21fd0.jpg": "/tinder/static/media/profile photo.05d21fd0.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.80c0d7b7.js",
-    "static/js/2.5aa565cd.chunk.js",
-    "static/css/main.b3c909cf.chunk.css",
-    "static/js/main.32665a1e.chunk.js"
+    "static/js/2.4b8a9cd8.chunk.js",
+    "static/css/main.a16e62c7.chunk.css",
+    "static/js/main.35533649.chunk.js"
   ]
 }
